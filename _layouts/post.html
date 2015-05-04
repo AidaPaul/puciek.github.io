@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include header.html %}
+<div class="row">
+
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+            <!-- First Blog Post -->
+            <h2>
+                {{ page.title }} 
+            </h2>
+
+            <div class="row">
+                <p class="col-md-9"><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM
+                </p>
+                <p class="col-md-3 text-right"><a href="#"><span class="glyphicon glyphicon-comment"></span> 0 comments</a></p>
+            </div>
+	    {{ content }}
+        </div>
+
+	{% include aside.html %}
+
+    </div>

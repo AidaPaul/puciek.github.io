@@ -1,0 +1,94 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+body a {
+    color: #21759b;
+}
+
+footer {
+    margin: 20px 0;
+}
+
+div.well h3 {
+    margin-top: 0;
+}
+
+ul#comment-panel li {
+    margin-bottom: 10px;
+}
+
+ul.nav li a {
+    margin-right: 10px !important;
+}
+
+ul.nav li:last-child a {
+    margin-right: 0 !important;
+}
+
+ul.nav li a:hover,
+ul.nav li a.active {
+    color: #000;
+    background: rgba(0, 0, 0, .1) !important;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, .3);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    margin: 10px 0;
+    padding: 5px 15px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-right:last-child {
+        margin-right: 0 !important;
+    }
+}
+
+hr {
+    margin: 10px 0;
+}
+
+div.col-md-8 div.row p,
+div.col-md-8 img {
+    margin-bottom: 5px;
+}
+
+div.col-md-8 h2:first-child {
+    margin-top: 0;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+div#Container div.mix {
+    display: none;
+}
+
+div.mix {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+.panel-group {
+    margin-bottom: 10px;
+}
+
+.panel-body .panel-body {
+    padding: 5px 15px;
+}
+
+.panel-body .panel-heading {
+    padding: 5px 10px;
+}
+
+.panel-body .panel:last-child {
+    margin-bottom: -10px;
+}
+
+ul, ol {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
