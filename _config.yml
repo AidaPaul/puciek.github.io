@@ -103,3 +103,5 @@ JB :
 safe: false # GitHub sets this to true but this is how JB detects a local test
 port: 80
 baseurl:
+
+excerpt_separator: <!--more-->

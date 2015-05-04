@@ -2,10 +2,11 @@
 layout: post
 title:  "Why I refuse to use Codility and so should You"
 date:   2014-02-17 04:35:0
-categories: jekyll update
 ---
 
 Ah the Codility, project that was born out of necessity and over the time turned into a monster that does exactly the opposite of what was intended. A tool that every recruiter loves, every wanna-be programmer fears and every person who writes software, in a commercial environment, laughs at (if they don’t, they should!). And all this hatred comes from a very simple reason – Codility doesn’t test programmers; it tests ability to google and use notepad. And I am not just blindly ranting, so bare with me, while I explain the top issues I have with Codility.
+
+<!--more-->
 
 Let’s start with explaining what Codility is, for those who may be unfamiliar with the concept. It is a website where recruiters can invite a person to solve a programming challenge. Once you follow the invitation, you will be presented with a notepad, a task and some fields in which you can provide test cases to your solution. Everything you type into the cute notepad is recorded on the timeline and can later on be reviewed by a recruiter, together with a score – a measure of how well you did on your test.
 This is where the first issue arises – the notepad. While there still are some whackos out there who use text editors for heavy duty programming (not just quick script/fix), but they are a minority and a dying breed. The standard today (cheap standard, as you can get modern and robust IDEs for as little as 0$) is to use IDE, which provides you with proper code completion, online code validation and API suggestions. With Codility notepad, you get none of that as all you see is basic code coloring. No completion, no API suggestions, no PEP-8 validation. I frankly cannot even get the print right (especially since I moved to python 3), and my IDE is notoriously correcting me. Does that make me a bad programmer? Maybe, but I have 45$ tool called PyCharm (I got it cheap) that completely resolves the problem with remembering the order of arguments for each function. I don’t know a single programmer who doesn’t ridicule the notion of writing non-pseudocode code on paper; this is no different. Of course, I could ignore it, fire up my visual studio and just develop the proper solution there, but then if a recruiter peeks into the solution then all he will see is one big copy/paste (and most likely will conclude that I am a cheat).
