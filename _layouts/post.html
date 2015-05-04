@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 {% include header.html %}
 <div class="row">
@@ -14,9 +15,11 @@ layout: default
             <div class="row">
                 <p class="col-md-9"><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM
                 </p>
-                <p class="col-md-3 text-right"><a href="#"><span class="glyphicon glyphicon-comment"></span> 0 comments</a></p>
+                <p class="col-md-3 text-right"><a href="#disqus_thread">0 Comments</a></p>
             </div>
 	    {{ content }}
+
+        {% include comments.html %}
         </div>
 
 	{% include aside.html %}
