@@ -1,0 +1,2 @@
+License is very simple - if you want to use parts of this repo in any way, ask for permission first.
+You will almost certainly be able to use it in the way that works for you, but I ask you for the basic curtsy of asking.
