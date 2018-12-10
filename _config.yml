@@ -11,7 +11,7 @@ timezone: Europe/London
 
 #production_url: http://x20x.co.uk
 
-highlighter: pygments  
+highlighter: rouge  
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
