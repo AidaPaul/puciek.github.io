@@ -108,4 +108,7 @@ excerpt_separator: <!--more-->
 
 plugins:
   - jekyll-redirect-from
+  
+gems:
+  - jekyll-redirect-from
 
